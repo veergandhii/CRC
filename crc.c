@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-/* CRC-CCITT polynomial (x^16 + x^12 + x^5 + 1) */
+/* CRC-CCITT polynomial Assumed 1011 */
 char poly[] = "1011";
 /* Function to perform CRC calculation and append/check the remainder */
 void calculateCrc(char *input, char *output, int mode) {
